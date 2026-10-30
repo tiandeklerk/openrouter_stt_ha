@@ -1,0 +1,30 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "OpenRouter STT",
+        "description": "Enter your OpenRouter API key.",
+        "data": {
+          "api_key": "OpenRouter API key"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "OpenRouter rejected the API key.",
+      "cannot_connect": "Could not reach OpenRouter."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "OpenRouter STT options",
+        "data": {
+          "model": "Model",
+          "prompt": "Prompt / vocabulary hints",
+          "timeout": "Request timeout (seconds)",
+          "zero_data_retention": "Request zero data retention (ZDR)"
+        }
+      }
+    }
+  }
+}
